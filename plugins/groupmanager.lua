@@ -1103,7 +1103,82 @@ if not data[tostring(target)]["settings"]["lock_markdown"] then
 data[tostring(target)]["settings"]["lock_markdown"] = "no"		
 end
 end
-
+--
+	if data[tostring(target)]["mutes"] then		
+if not data[tostring(target)]["mutes"]["mute_all"] then			
+data[tostring(target)]["mutes"]["mute_all"] = "no"		
+end
+end
+if data[tostring(target)]["mutes"] then		
+if not data[tostring(target)]["mutes"]["mute_gif"] then			
+data[tostring(target)]["mutes"]["mute_gif"] = "no"		
+end
+end
+if data[tostring(target)]["mutes"] then		
+if not data[tostring(target)]["mutes"]["mute_text"] then			
+data[tostring(target)]["mutes"]["mute_text"] = "no"		
+end
+end
+if data[tostring(target)]["mutes"] then		
+if not data[tostring(target)]["mutes"]["mute_photo"] then			
+data[tostring(target)]["mutes"]["mute_photo"] = "no"		
+end
+end
+if data[tostring(target)]["mutes"] then		
+if not data[tostring(target)]["mutes"]["mute_video"] then			
+data[tostring(target)]["mutes"]["mute_video"] = "no"		
+end
+end
+if data[tostring(target)]["mutes"] then		
+if not data[tostring(target)]["mutes"]["mute_audio"] then			
+data[tostring(target)]["mutes"]["mute_audio"] = "no"		
+end
+end
+if data[tostring(target)]["mutes"] then		
+if not data[tostring(target)]["mutes"]["mute_voice"] then			
+data[tostring(target)]["mutes"]["mute_voice"] = "no"		
+end
+end
+if data[tostring(target)]["mutes"] then		
+if not data[tostring(target)]["mutes"]["mute_sticker"] then			
+data[tostring(target)]["mutes"]["mute_sticker"] = "no"		
+end
+end
+if data[tostring(target)]["mutes"] then		
+if not data[tostring(target)]["mutes"]["mute_contact"] then			
+data[tostring(target)]["mutes"]["mute_contact"] = "no"		
+end
+end
+if data[tostring(target)]["mutes"] then		
+if not data[tostring(target)]["mutes"]["mute_forward"] then			
+data[tostring(target)]["mutes"]["mute_forward"] = "no"		
+end
+end
+if data[tostring(target)]["mutes"] then		
+if not data[tostring(target)]["mutes"]["mute_location"] then			
+data[tostring(target)]["mutes"]["mute_location"] = "no"		
+end
+end
+if data[tostring(target)]["mutes"] then		
+if not data[tostring(target)]["mutes"]["mute_document"] then			
+data[tostring(target)]["mutes"]["mute_document"] = "no"		
+end
+end
+if data[tostring(target)]["mutes"] then		
+if not data[tostring(target)]["mutes"]["mute_tgservice"] then			
+data[tostring(target)]["mutes"]["mute_tgservice"] = "no"		
+end
+end
+if data[tostring(target)]["mutes"] then		
+if not data[tostring(target)]["mutes"]["mute_inline"] then			
+data[tostring(target)]["mutes"]["mute_inline"] = "no"		
+end
+end
+if data[tostring(target)]["mutes"] then		
+if not data[tostring(target)]["mutes"]["mute_game"] then			
+data[tostring(target)]["mutes"]["mute_game"] = "no"		
+end
+end
 if data[tostring(target)]["settings"] then		
 if not data[tostring(target)]["settings"]["lock_webpage"] then			
 data[tostring(target)]["settings"]["lock_webpage"] = "no"		
